@@ -1,6 +1,6 @@
 ![front_image](./Images/front_image.PNG)
 
-# Wine Quality Classification Classification and Analysis
+# Wine Quality Classification Prediction and Analysis
 
 **Author**: [Ruthy Yao](mailto:zejia.yao@gmail.com)
 
