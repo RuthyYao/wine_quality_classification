@@ -51,7 +51,7 @@ Further analyses could yield additional insights to further improve the predicti
 
 ## For More Information
 
-See the full analysis in the [Jupyter Notebook](./house_price_prediction_tool.ipynb) or review this [presentation](./house_price_prediction_tool_presentation.pdf).
+See the full analysis in the [Jupyter Notebook](./wine_quality_analysis.ipynb) or review this [presentation](./wine_quality_analysis_presentation.pdf).
 
 For additional info, contact Ruthy Yao at [zejia.yao@gmail.com](mailto:zejia.yao@gmail.com)
 
