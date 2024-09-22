@@ -29,7 +29,7 @@ The final model using Random Forest algorithms achieve a prediction accuracy of 
 
 The ranking of the 11 parameters based on the level of contribution to the quality classification is as following.
 
-![Feature_Importance](./images/feature_importance_random.png)
+![feature_importance_random](./images/feature_importance_random.png)
 
 For the top five parameters, the desirable value range based on where the most data lies are: 
 
