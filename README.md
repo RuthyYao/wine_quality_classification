@@ -1,4 +1,4 @@
-![front_image](./images/front_image.PNG)
+![front_image](./Images/front_image.PNG)
 
 # Wine Quality Classification Classification and Analysis
 
@@ -29,7 +29,7 @@ The final model using Random Forest algorithms achieve a prediction accuracy of 
 
 The ranking of the 11 parameters based on the level of contribution to the quality classification is as following.
 
-![feature_importance_random](./images/feature_importance_random.png)
+![feature_importance_random](./Images/feature_importance_random.png)
 
 For the top five parameters, the desirable value range based on where the most data lies are: 
 
