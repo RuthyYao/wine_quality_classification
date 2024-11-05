@@ -6,13 +6,17 @@
 
 ## Overview
 
-This project aims to help Riverwood Wine, which makes five to eight red wine products each year, to proactively manage the quality of their red wine products. Predicative analysis on the classification of wine quality between "high-quality" and "low-quality" wines shows that alcohol,sulphates,volatile acidity,density and total sulfur dioxide are the most important factors that contribute to a high-quality wine. The project specified a value range for each of the parameters. On top of that, Riverwood Wine can use this predictive model to adjust their sales and marketing efforts to improve the resources allocation. 
+This project aims to help Riverwood Wine to accurately predict their red wine products that would be rated as "High-Quality" by the industry body. This would allow a more focused approach on sales and marketing capital allocation. The secondary goal was to understand the drivers of a "High-Quality" wine, so they can target the most important physio-chemical properties for measure and management during the production process. This will ultimately enhance the product quality of Riverwood's wine products.  
+
+To solve the business problems, predicative analysis tested on three classification models was applied. Random Forest algorithm was chosen as the final model based on a well-rounded review on the test scores. The feature importance technique was employed to identify the five most important factors that make a "High-Quality" rating. The quartile analysis was used to identify the value range for each of the top five parameters so Riverwood can use it as a benchmark for quality control during the fermentation process.  
 
 ## Business Problem
 
-Riverwood Wine is a renowed winemaker in the industry. Every year, they participate in the industry rating and award. Wining the award will greatly enhance their brand value and boost their sales. Historically, at least three of their products would get the "Spectatular Wine" award. However, in recent years, their wins became very unpredictable - in some years, none of their wines got an award. 
+Riverwood Wine is a renowed winemaker in the industry. Every year, they participate in the industry competition for quality award. Wining the award will greatly enhance their brand value and boost their sales. 
 
-The leadership team would like to have a better understand from the physiochemical properties perspective, what makes a 'great" wine. With those insights, Riverwood Wine can proactively manage the fermentation process - better control over the quality of their product and increase the chances of winning the industry award. Furthermore, they would like to self assess their products so they can allocate their sales and marketing budget to the best products.
+Historically, Riverwood Wine enlisted all their products to the industry competition. To increase their chances of win, they would invest significantly on all products, which is not only costly but also less efficient in using the capital. Moving foreward, Riverwood Wine plans to adopt a more "focused" approach in their sales and marketing spend - they will allocate the capital to only the "high-quality" wines that are most likely to win the industry award. The management team also want to find out the drivers of high-quality wines, so they can target the prarmeters to be measured and managed during the fermentation process. This will ultimately enhance the quality of their wine products. 
+
+We will look to understand the probability of wines that would be rated as "high-quality" by the industry body and what the drivers are for this, so Riverwood Wine can target the physio-chemical properties that need to measured and managed to secure a "high-quality" rating.
 
 
 ## Data and Methods
@@ -27,7 +31,7 @@ Three machine learning models are trained and assessed based on the accuracy sco
 
 The final model using Random Forest algorithms achieve a prediction accuracy of 93.4% and a F1 score (a combination of precision and recall) of 71.2%.
 
-The ranking of the 11 parameters based on the level of contribution to the quality classification is as following.
+The ranking of the 11 parameters based on their significance to the quality classification is as following.
 
 ![feature_importance_random](./Images/feature_importance_random.png)
 
@@ -47,7 +51,7 @@ Further analyses could yield additional insights to further improve the predicti
 
 - **Analyse the interacted features** - Some physicochemical properties are interdependent. Build interaction features will improve the predicative power. 
 
-- **Introduce the white wine dataset** - - This model can be applied to dataset of white wine products. Compare and contrast the results from the two different prodducts' dataset will yield additional insights around the common factors vs the product-specfic factors so Riverwood can target the fermentation techniques to improve.  
+- **Prepare for the model deployment** - - Further analysis on what fermentation techniques and how to implement the techniques to control the physio-chemical properties in the desirable range will prepare us for the implementation of those analytical insights in the real world practice.  
 
 ## For More Information
 
